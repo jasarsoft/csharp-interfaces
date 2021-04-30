@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRepository.CSV", "Per
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRepository.SQL", "PersonRepository.SQL\PersonRepository.SQL.csproj", "{E62AD2A0-2497-4C27-B326-E59C4E7ABBDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.Factory", "PersonRepository.Factory\PersonRepository.Factory.csproj", "{6EBD1BFE-7927-445A-AA38-4A35EE8E731E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{E62AD2A0-2497-4C27-B326-E59C4E7ABBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E62AD2A0-2497-4C27-B326-E59C4E7ABBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E62AD2A0-2497-4C27-B326-E59C4E7ABBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBD1BFE-7927-445A-AA38-4A35EE8E731E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBD1BFE-7927-445A-AA38-4A35EE8E731E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBD1BFE-7927-445A-AA38-4A35EE8E731E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBD1BFE-7927-445A-AA38-4A35EE8E731E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{BF056D82-11E0-49A0-8FB4-2F1D3B6CC773} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
 		{F6AC7E6C-C7B2-481C-9410-47A7788D41C6} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
 		{E62AD2A0-2497-4C27-B326-E59C4E7ABBDA} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
+		{6EBD1BFE-7927-445A-AA38-4A35EE8E731E} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {187627C5-1D62-4F47-A6DC-F6E1D42FF89F}
