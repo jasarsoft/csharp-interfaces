@@ -214,6 +214,10 @@
       <Project>{ef1d5215-e99b-4fe7-abc3-bd748f75780c}</Project>
       <Name>PersonRepository.Interface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PersonRepository.Service\PersonRepository.Service.csproj">
+      <Project>{bf056d82-11e0-49a0-8fb4-2f1d3b6cc773}</Project>
+      <Name>PersonRepository.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
