@@ -1,6 +1,7 @@
 ﻿using Common;
 using NUnit.Framework;
 using System.Linq;
+using Moq;
 
 namespace PeopleViewer.Presentation.Tests
 {
@@ -8,7 +9,10 @@ namespace PeopleViewer.Presentation.Tests
     {
         private IPersonRepository GetTestRepository()
         {
-            return new FakeRepository();
+            var testPeople = TestData.testPeople;
+            var mockRepo = new Mock<IPersonRepository>();
+            mockRepo.Setup(p => p.GetPeople()).Returns(testPeople);
+            return mockRepo.Object;
         }
 
         [Test]
